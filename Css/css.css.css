@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+}
+.container-fluid{
+    height: 80px;
+}
+
+ul li{
+    padding: 10px;
+    color:rgb(223,15,77) ;
+
+}
+.navbar-light .navbar-brand {
+    color:rgb(223,15,77) ;
+    cursor: pointer;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link{
+    color:rgb(223,15,77) ;
+    text-transform: uppercase;
+  }
+
+.container-fluid ul{
+    margin-left: 30%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    font-size: 20px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(223,15,77);
+  }
+  .btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(223,15,77);
+    color: white;
+    border-radius: 60px;
+  }
+  
+  .main{
+    background: url(../img/img.jpg)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50% 50%;
+    width: 100%;
+  }
+  .main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+  }
+  .btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:white;
+    color:rgb(223,15,77) ;
+    font-weight: 700;
+    border-radius: 60px;
+    border: 3px solid rgb(223,15,77);
+  }
+  .btn1:hover{
+    background-color: rgb(223,15,77);
+    transition: 0.5s;
+    color: wheat;
+  
+  }
+  h1{
+    font-weight: 700;
+    color:rgb(223,15,77) ;
+  }
+
+  .card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+  -webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+  transition: 0.5s;
+  }
+
+h5{
+  color:rgb(223,15,77) ;
+  font-weight: 500;
+}
+
+p{
+ color:rgb(0, 68, 255) ;
+ font-weight: 400;
+}
+
+h6{
+  color:rgb(0, 68, 255);
+}
+
+
+
+
+
